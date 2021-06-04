@@ -94,6 +94,11 @@ header {
   color: white;
 }
 
+.btn-blue {
+  background-color: #8ea1e1;
+  color: white;
+}
+
 .white-sec {
   background-color: #fff;
 }
@@ -145,7 +150,7 @@ header {
   line-height: 25px;
 }
 
-#hero .fas.fa-long-arrow-alt-down {
+.fas.fa-long-arrow-alt-down {
   padding-left: 5px;
   margin-right: 5px;
 }
@@ -183,4 +188,9 @@ header {
 
 #text-item1 p {
   line-height: 30px;
+}
+
+.adventure {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
 }
