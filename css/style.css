@@ -28,6 +28,10 @@ body {
   width: 45%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .w-70 {
   width: 70%;
 }
@@ -88,6 +92,14 @@ header {
 .btn-black {
   background-color: #23272a;
   color: white;
+}
+
+.white-sec {
+  background-color: #fff;
+}
+
+.grey-sec {
+  background-color: #f6f6f6;
 }
 
 #menu {
