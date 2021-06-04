@@ -12,12 +12,24 @@ body {
   width: 20%;
 }
 
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
 .w-45 {
   width: 45%;
 }
 
-.w-60 {
-  width: 60%;
+.w-70 {
+  width: 70%;
 }
 
 .clearfix::after {
@@ -41,6 +53,10 @@ header {
 
 .text-white {
   color: white;
+}
+
+.text-black {
+  color: black;
 }
 
 .text-center {
@@ -135,3 +151,24 @@ header {
   margin-right: 20px;
 }
 
+
+/* Main */
+
+#item1 {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#text-item1 {
+  margin-top: 136px;
+}
+
+#text-item1 h2 {
+  font-size: 42px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+#text-item1 p {
+  line-height: 30px;
+}
