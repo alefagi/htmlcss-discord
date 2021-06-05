@@ -238,3 +238,20 @@ footer ul li {
   height: 80px;
 }
 
+.language {
+  font-size: 0.7rem;
+  padding-top: 20px;
+}
+
+.language img {
+  width: 5%;
+  padding-right: 5px;
+}
+
+.contacts {
+  padding-top: 15px;
+}
+
+.contacts * {
+  padding-right: 15px;
+}
