@@ -20,16 +20,16 @@ body {
   width: 25%;
 }
 
-.w-30 {
-  width: 30%;
-}
-
-.w-40 {
-  width: 40%;
+.w-35 {
+  width: 35%;
 }
 
 .w-45 {
   width: 45%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .w-60 {
@@ -48,6 +48,10 @@ body {
 
 .float-left {
   float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 header {
@@ -124,7 +128,7 @@ header {
   line-height: 80px;
 }
 
-#logo {
+.logo {
   vertical-align: middle;
 }
 
@@ -212,12 +216,25 @@ header {
 
 footer {
   background-color: #23272a;
-  height: 500px;
   color: #6c81cd;
+  padding-bottom: 50px;
 }
 
 .top-foot {
-  height: 400px;
   border-bottom: 1px solid #6c81cd;
   padding-top: 50px;
+  padding-bottom: 25px;
 }
+
+footer ul li {
+  list-style-type: none;
+  color: white;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+}
+
+.bottom-foot {
+  line-height: 80px;
+  height: 80px;
+}
+
