@@ -194,18 +194,26 @@ header {
 
 
 
-#text-item1 {
+.text-item {
   padding-top: 30px;
 }
 
-#text-item1 h2 {
-  font-size: 42px;
+.text-item h2 {
+  font-size: 2rem;
   font-weight: 800;
   padding-bottom: 30px;
 }
 
-#text-item1 p {
-  line-height: 30px;
+.text-item p {
+  line-height: 1.5rem;
+}
+
+.grey-sec.special .text-item {
+  padding-top: 0;
+}
+
+.grey-sec.special :last-child {
+  margin-top: 20px;
 }
 
 main img {
@@ -214,11 +222,11 @@ main img {
 
 .adventure {
   background-image: url(../img/stars.svg);
+  height: 43px;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  display: inline-block;
-  padding-bottom: 50px;
+  margin-bottom: -10px;
 }
 
 
@@ -226,6 +234,10 @@ footer {
   background-color: #23272a;
   color: #6c81cd;
   padding-bottom: 50px;
+}
+
+footer h5 {
+  padding-top: 5px;
 }
 
 .top-foot {
