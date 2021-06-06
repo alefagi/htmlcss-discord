@@ -59,7 +59,7 @@ header {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -111,14 +111,16 @@ header {
   background-color: #fff;
   padding-bottom: 80px;
   padding-top: 100px;
-  padding-left: 50px;
 }
 
 .grey-sec {
   background-color: #f6f6f6;
   padding-bottom: 80px;
   padding-top: 100px;
-  padding-left: 50px;
+}
+
+.grey-sec.special{
+  text-align: center;
 }
 
 #menu {
@@ -206,6 +208,10 @@ header {
   line-height: 30px;
 }
 
+main img {
+  width: 100%;
+}
+
 .adventure {
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
@@ -215,9 +221,6 @@ header {
   padding-bottom: 50px;
 }
 
-.grey-sec.special{
-  text-align: center;
-}
 
 footer {
   background-color: #23272a;
